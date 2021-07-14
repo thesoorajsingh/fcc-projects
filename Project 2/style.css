@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/7a/bd/03/7abd03aeac297e43ba5a53cd8f41168a.jpg);
+    color: aliceblue;
+    font-family: 'Open Sans';
+}
+
+#header{
+    margin: auto;
+    padding: 1rem;
+    max-width: fit-content;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 60%);
+    border-radius: 5px;
+    backdrop-filter: blur(8px);
+}
+
+#form-container{
+    padding: 1rem;
+    background-color: rgba(122, 88, 51, 40%);
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+form input,select,textarea{
+    max-width: 50%;
+    min-width: 40%;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+button{
+    max-width: 20%;
+}
+
+form label{
+    margin: 0.75rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: beige;
+}
+
+form textarea{
+    font-family: monospace;
+}
+
+#container{
+    max-width: 50%;
+    margin: auto;
+}
+

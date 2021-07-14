@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #202020;
+    font-family: "Big Shoulders Stencil Display";
+    color: beige;
+    font-size: 30px;
+}
+
+.img-styling{
+    max-width: 50%;
+    max-height: 500px;
+}
+
+#title {
+    padding: 15px;
+}
+
+#image {
+    max-height: 700px;
+    max-width: 50%;
+    box-shadow: 6px 6px 8px beige;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-styling{
+    color: purple;
+}
+
+.title-section{
+    word-spacing: 0.6rem;
+    margin: auto;
+    padding: 10px 0 20px 0; 
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container{
+max-width: 1000px;
+margin: 0 auto;
+overflow: auto;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Open Sans';
+    padding: 1rem;
+    font-size: 40px;
+    max-width: max-content;
+}
+
+li p{
+    font-size: 15px;
+    font-weight: 200;
+    color: orange;
+    line-height: 1.5em;
+    padding: 1rem;
+    text-align: left;
+    margin-left: -15px;
+}
+
+#tribute-info{
+    margin-left: 250px;
+}
+
+#tribute-link{
+    color: yellow;
+    font-size: 23px;
+}
